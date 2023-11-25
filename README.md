@@ -1,7 +1,7 @@
 # LemCLI
 Welcome to LemCLI! This open-source CLI aims to give users a better experience with building projects, managing packages, and uploading programs.
 
-The creation of this template was inspired by [pros-cli](https://github.com/purduesigbots/pros-cli). We aim to develop a library that strikes a balance between ease-of-use, comprehensive functionality, and maintainability.
+The creation of this template was inspired by [pros-cli](https://github.com/purduesigbots/pros-cli). We aim to develop a CLI that strikes a balance between ease-of-use, comprehensive functionality, and maintainability.
 
 > Want a place to chat with the devs and other users? Join our [discord server](https://discord.gg/pCHr7XZUTj).
 
@@ -14,12 +14,12 @@ The creation of this template was inspired by [pros-cli](https://github.com/purd
 - [ ] Bluetooth download?
 
 ## License
-This project is licensed under the MIT license. Check [LICENSE](https://github.com/LemLib/LemLib/blob/master/LICENSE) for more details.
+This project is licensed under the MIT license. Check [LICENSE](https://github.com/LemLib/LemCLI/blob/master/LICENSE) for more details.
 
 
 ## FAQ
 _**1. Is LemCLI VRC legal?**_
-Probably?
+ye
 
 ## Documentation
 Check out the [documentation](https://lemlib.github.io/LemCLI)

@@ -10,7 +10,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 > - Refer this project in your project's readme
 > - Mention the project at local meetups with your fellow competitors
 > - Mention the use of this project in judging presentations
-> - Open a bug report or feature request [here](https://github.com/LemLib/LemLib/issues/new/choose)
+> - Open a bug report or feature request [here](https://github.com/LemLib/LemCLI/issues/new/choose)
 > - Discuss and give feedback in our [Discord](https://discord.gg/pCHr7XZUTj)
 
 <!-- omit in toc -->
@@ -72,7 +72,7 @@ Depending on how large the project is, you may want to outsource the questioning
 A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
 
 - Make sure that you are using the latest version.
-- Determine if your bug is really a bug and not an error on your side e.g. (TODO!!!) (Make sure that you have read the [documentation](https://lemlib.github.io/LemLib/). If you are looking for support, you might want to check [this section](#i-have-a-question)).
+- Determine if your bug is really a bug and not an error on your side e.g. (TODO!!!) (Make sure that you have read the [documentation](https://lemlib.github.io/LemCLI/). If you are looking for support, you might want to check [this section](#i-have-a-question)).
 - To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://github.com/LemLib/LemCLI/issues?q=label%3Abug).
 - Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
 - Collect information about the bug:
@@ -114,7 +114,7 @@ This section guides you through submitting an enhancement suggestion for LemCLI,
 - Make sure that you are using the latest version.
 - Read the [documentation](https://lemlib.github.io/LemCLI/) carefully and find out if the functionality is already covered, maybe by an individual configuration.
 - Perform a [search](https://github.com/LemLib/LemCLI/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
-- Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
+- Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset.
 
 <!-- omit in toc -->
 #### How Do I Submit a Good Enhancement Suggestion?
