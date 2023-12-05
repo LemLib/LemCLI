@@ -1,7 +1,20 @@
-var argv = require('yargs/yargs')(process.argv.slice(2)).argv;
+import yargs from "yargs";
+import { standalone } from "../config.json";
+import { SelfUpdateUtility } from "./update";
 
-if (argv.ships > 3 && argv.distance < 53.5) {
-    console.log('Plunder more riffiwobbles!');
-} else {
-    console.log('Retreat from the xupptumblers!');
-}
+if (standalone) SelfUpdateUtility.init();
+
+yargs(process.argv.slice(2)).command(
+  "update",
+  "update",
+  {
+    url: {
+      alias: "u",
+      describe: "the URL to download the new executable from",
+    },
+  },
+  async (argv) => {
+    if (typeof argv.url === "string")
+      await SelfUpdateUtility.get().updateCLI(argv.url);
+  },
+);
